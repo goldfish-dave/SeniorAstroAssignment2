@@ -1,15 +1,54 @@
 \documentclass[10pt,a4paper]{article}
+\usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{fullpage}
 \usepackage{amsmath}
+\usepackage{url}
 
-\title{Senior Astrophysics 2011 Assignment 2}
+\title{Senior Astrophysics 2011 Assignment 2\footnote{Updates can be found at \texttt{https://github.com/goldfish-dave/SeniorAstroAssignment2}}}
+
 \date{}
 \author{D. G. Wilcox \\
 		309248035}
 
 \begin{document}
 \maketitle
-assignment goes HERE
+
+\section*{Question 1}
+\begin{itemize}
+    \item[(a)]
+    \item[(b)]
+    \item[(c)]
+    \item[(d)]
+    \item[(e)]
+\end{itemize}
+\section*{Question 2}
+% Reaction Equations
+\newcommand{\reactionOne}{$p + p \rightarrow ^{2}H + e^{+} + \nu_{e}$}
+\newcommand{\reactionTwo}{$^{2}H + p \rightarrow ^{3}He + \gamma$}
+\newcommand{\reactionThree}{$^{3}He + ^{3}He \rightarrow ^{4}He + 2p$}
+
+% Q-values
+\newcommand{\qvalueOne}{$+2.73 \times 10^{5}$}
+\newcommand{\qvalueTwo}{$-1.54 \times 10^{7}$}
+\newcommand{\qvalueThree}{$-4.24 \times 10^{7}$}
+
+\begin{table}[h]
+    \begin{tabular}{c|c|c|c|c}
+        \#   &   Reaction            &   LHS Mass   (u)    &   RHS Mass (u)    &   Q-value (MeV) \\
+        \hline \\
+        1    &   \reactionOne{}      &   2.0145530         &   2.0146486       &   \qvalueOne{}  \\
+        2    &   \reactionTwo{}      &   3.0213765         &   3.0160000       &   \qvalueTwo{}  \\
+        3    &   \reactionThree{}    &   6.0320000         &   6.0171550       &   \qvalueThree{} \\
+    \end{tabular}
+\end{table}
+Since the entire PP-1 chain results in $2(\mbox{Reaction } 1) + 2(\mbox{Reaction } 2) \rightarrow \mbox{Reaction } 3$, if we sub in our values and subtract the left from the right we find that the Q-value for the PP-1 chain is $1.22 \times 10^{7}$ MeV, which is in close agreement with the tabulated 12.86 Mev\footnote{\url{http://en.wikipedia.org/wiki/Proton-proton_chain_reaction#The_pp_I_branch}}.
+\section*{Question 3}
+\section*{Question 4}
+\begin{itemize}
+    \item[(a)]
+    \item[(b)]
+    \item[(c)]
+\end{itemize}
 
 \end{document}
