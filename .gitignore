@@ -1,0 +1,8 @@
+.DS_Store
+*.pdf
+*.log
+*.aux
+*.swp
+*.bbl
+*.blg
+
