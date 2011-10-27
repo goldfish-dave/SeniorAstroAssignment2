@@ -30,9 +30,9 @@ function plotTempVLum(temps,lums)
 
     hold off;
     semilogy(10.^hightemp,10.^highlum);
+    #semilogy(10.^midtemp ,10.^midlum,"color","green");
     hold all;
-    semilogy(10.^midtemp ,10.^midlum);
-    semilogy(10.^lowtemp ,10.^lowlum);
+    #semilogy(10.^lowtemp ,10.^lowlum,"color","red");
 
     grid on;
     set(gca,"xdir","reverse");
